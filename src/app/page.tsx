@@ -310,7 +310,7 @@ export default function Portfolio() {
 
   const experiences = [
     { title: "VP of Engineering", company: "The Flyover (Pop Acta)", period: "Aug 2024 - Present", description: "Leading the scale of a real-time data platform from 10M → 50M+ daily events with FastAPI, PostgreSQL, and Metabase for ad optimization." },
-    { title: "Director of Software Engineering", company: "StickerGiant", period: "Feb 2020 - Jan 2024", description: "Led cloud transformation and industrial laser adoption, making StickerGiant the fastest manufacturer in its industry and driving a $100M+ acquisition." },
+    { title: "Director of Software Engineering & Product Management", company: "StickerGiant", period: "Feb 2020 - Jan 2024", description: "Led cloud transformation and industrial laser adoption, making StickerGiant the fastest manufacturer in its industry and driving a $100M+ acquisition." },
     { title: "Co-Founder", company: "Allie Bolton", period: "Feb 2017 - June 2020", description: "Scaled SMB to Fortune 50 clients with ML-powered social analytics, helping a client win SXSW Pitch Slam and grow 10×." },
     { title: "Senior Deployment Manager", company: "Envysion", period: "Aug 2014 - May 2017", description: "Directed development and deployment of a computer vision ML platform using motion video for operational analysis, generating $5M+ in new ARR." },
     { title: "Executive Team Leader", company: "Target Corp.", period: "Aug 2010 - Aug 2014", description: "Built SQL-driven retail analytics systems that delivered $40M in revenue growth and $22M in cost savings across 400 stores." }
