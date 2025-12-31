@@ -151,10 +151,10 @@ export default function Portfolio() {
       approach: "Built a multi-tenant sending platform with intelligent routing, reputation management, and automated warmup protocols. Designed the SMS platform from scratch with carrier-grade reliability and centralized governance. Implemented AI-driven CRM automation using event-driven architecture to handle ticket classification, routing, and resolution.",
       results: [
         "Scaled daily email volume from 514k to 4.1M/day (8x increase)",
-        "Delivered 1.85 billion emails with consistent deliverability",
+        "Delivered 1.85 billion emails with top tier deliverability and inbox placement",
         "Built SMS platform delivering 1.3M-8M texts/day",
         "Automated 886k ticket events through AI-enabled CRM",
-        "Grew engineering org from 8 to 54 people",
+        "Grew the company from 8 to 54 people in under a year",
         "Maintained delivery consistency despite hypergrowth"
       ],
       learnings: "Hypergrowth requires building systems that can scale independently. The key insight was treating each channel (email, SMS, CRM) as a separate bounded context with clear contracts, allowing teams to move fast without breaking each other's work."
@@ -167,12 +167,12 @@ export default function Portfolio() {
       outcome: "Deployment cadence: 24/yr to 1,300/yr. Reduced costs by $400k+/year",
       featured: true,
       period: "Feb 2020 - Jan 2024",
-      role: "Director of Software Engineering",
+      role: "Director of Software Engineering & Product Management",
       challenge: "StickerGiant was running on a 15-year-old CRM system with bare-metal infrastructure. Deployments were risky, infrequent (24/year), and required weekend downtime. The system was a monolith with no clear boundaries, making changes slow and error-prone. Operating costs were high and scalability was limited.",
       approach: "Applied the Strangler Fig pattern to incrementally replace the legacy system. Used Domain-Driven Design to identify bounded contexts and extract them as microservices. Implemented Kafka for event-driven communication between domains. Built a modern CI/CD pipeline with automated testing, canary deployments, and feature flags. Migrated infrastructure to AWS with Terraform-managed IaC.",
       results: [
         "Increased deployment cadence from 24/year to 1,300/year (54x improvement)",
-        "Reduced infrastructure costs by $400k+/year",
+        "Reduced infrastructure & operating costs by $400k+/year",
         "Eliminated weekend deployment windows entirely",
         "Achieved zero-downtime deployments",
         "Reduced mean time to recovery from hours to minutes",
@@ -185,10 +185,10 @@ export default function Portfolio() {
       description: "Designed JiS + HiL platform that turned manufacturing into real-time sourcing events with automation and live metrics. Integrated supply chain, shipping, payments, and manufacturing workflows.",
       technologies: ["Event-Driven Architecture", "HiL Automation", "Real-time Metrics", "Domain Integration", "Test Discipline"],
       company: "StickerGiant",
-      outcome: "Lead time improved from 96.1 hours to 26.9 hours",
+      outcome: "Total Turn Time improved from 96.1 hours to 26.9 hours",
       featured: true,
       period: "Feb 2020 - Jan 2024",
-      role: "Director of Software Engineering",
+      role: "Director of Software Engineering & Product Management",
       challenge: "Manufacturing lead times were nearly 4 days (96.1 hours), making StickerGiant uncompetitive. The manufacturing floor operated in batches with no real-time visibility. Supply chain, shipping, and payments were disconnected systems requiring manual coordination. Quality control was reactive rather than proactive.",
       approach: "Designed a Just-in-Sequence (JiS) system that treated each manufacturing step as a real-time event. Implemented Hardware-in-the-Loop (HiL) automation to connect physical equipment to the software platform. Built unified dashboards showing live metrics across all manufacturing cells. Integrated supply chain triggers to automatically reorder materials based on consumption patterns.",
       results: [
@@ -209,7 +209,7 @@ export default function Portfolio() {
       outcome: "MTTR improved from 53 minutes to 1 minute 11 seconds",
       featured: false,
       period: "Feb 2020 - Jan 2024",
-      role: "Director of Software Engineering",
+      role: "Director of Software Engineering & Product Management",
       challenge: "There was no formal SRE practice. Incidents were discovered by customers, not monitoring. Mean time to recovery was 53 minutes because there were no runbooks, unclear ownership, and no observability. On-call was informal and stressful.",
       approach: "Built an SRE platform from scratch: centralized logging, metrics collection, distributed tracing, and alerting. Created service ownership model where each team owned their services end-to-end. Developed runbooks for common failure modes. Established incident response protocols with clear escalation paths. Implemented release controls including feature flags and canary deployments.",
       results: [
@@ -230,7 +230,7 @@ export default function Portfolio() {
       outcome: "50%+ reduction in feature development time",
       featured: false,
       period: "Feb 2020 - Jan 2024",
-      role: "Director of Software Engineering",
+      role: "Director of Software Engineering & Product Management",
       challenge: "The organization had 117 Slack channels with no clear communication patterns. Product decisions were made ad-hoc without data. Feature development was slow because requirements were unclear and changed frequently. Teams didn't understand customers deeply enough.",
       approach: "Applied Team Topologies principles to restructure communication. Collapsed 117 channels to 9 with clear purposes. Implemented pirate analytics (AARRR: Acquisition, Activation, Retention, Referral, Revenue) to ground roadmap decisions in data. Created 'Be-the-Customer' onboarding where every new hire spent time doing customer support and watching user sessions.",
       results: [
@@ -250,8 +250,8 @@ export default function Portfolio() {
       company: "Allie Bolton",
       outcome: "Reduced feedback loop cycle time by 4x-10x",
       featured: false,
-      period: "Feb 2017 - Jun 2023",
-      role: "Co-Founder / Technical Product Manager",
+      period: "Feb 2017 - Feb 2020",
+      role: "Co-Founder",
       challenge: "Clients were running social media campaigns with no way to measure effectiveness. Feedback cycles were weeks or months. Inventory decisions were based on gut feel. There was no connection between social engagement and actual business outcomes.",
       approach: "Built an ML analytics platform that connected social media engagement to inventory movement and customer behavior. Implemented OODA (Observe, Orient, Decide, Act) loops with instrumented proofs of concept. Each campaign had built-in measurement from day one, allowing rapid iteration.",
       results: [
@@ -290,7 +290,7 @@ export default function Portfolio() {
       description: "Led SQL-driven analysis across POS and operational data to isolate patterns and anomalies. Used CCTV-based validation and PowerPivot models to scale improvements across large retail footprints.",
       technologies: ["SQL", "Data Analysis", "PowerPivot", "Excel", "CCTV Analytics", "POS Data", "Investigative Methods"],
       company: "Target Corporation",
-      outcome: "$22M cost savings and $40M revenue impact",
+      outcome: "$22M cost savings and $40M newly generated revenue impact",
       featured: false,
       period: "Aug 2010 - Aug 2014",
       role: "Executive Team Leader",
@@ -322,7 +322,7 @@ export default function Portfolio() {
     "Data & Analytics": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "BigQuery", "Elasticsearch", "Tableau"],
     "Cloud & DevOps": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD", "LaunchDarkly"],
     "Management & Leadership": ["Team Topologies", "Stream-Aligned Teams", "Platform Teams", "Enabling Teams", "Cognitive Load Management", "Org Design"],
-    "Tools & Methods": ["Git", "Jest", "Cypress", "Figma", "Jira", "Agile/Scrum", "OKRs"]
+    "Tools & Methods": ["DDD", "Git", "DevOps", "Data Mesh","Cypress", "Figma", "Jira", "Agile", "OKRs"]
   };
 
   return (
