@@ -1283,13 +1283,13 @@ export default function Portfolio() {
           </div>
           <div className="grid sm:grid-cols-3 gap-6">
             <Card className="group border-0 shadow-lg p-6 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-              <a href="mailto:info@troynamath.com" className="flex flex-col items-center text-center space-y-3" aria-label="Email Troy Namath">
+              <a href="mailto:troynamath@gmail.com" className="flex flex-col items-center text-center space-y-3" aria-label="Email Troy Namath">
                 <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
                   <Mail className="w-7 h-7 text-white" aria-hidden="true" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Email</h3>
-                  <span className="text-slate-600 dark:text-slate-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-sm">info@troynamath.com</span>
+                  <span className="text-slate-600 dark:text-slate-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-sm">troynamath@gmail.com</span>
                 </div>
               </a>
             </Card>
