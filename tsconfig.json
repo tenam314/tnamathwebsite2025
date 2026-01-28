@@ -26,7 +26,8 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "jsxImportSource": "same-runtime/dist"
   },
   "include": [
     "**/*.ts",
