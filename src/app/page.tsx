@@ -30,11 +30,11 @@ import {
 } from "lucide-react";
 
 const IMAGES = {
-  profile: "https://your-cdn.cloudfront.net/profile/troy-namath.jpg",
+  profile: "https://images.troynamath.com/Main-Page/profile-image-artsy.jpeg",
   projects: {
-    flyover: "https://your-cdn.cloudfront.net/projects/flyover-header.jpg",
+    flyover: "https://images.troynamath.com/Projects/hypergrowth-theflyover.jpg",
     stickergiant: "https://images.troynamath.com/Projects/jis-hil-SGdiecut.jpg",
-    allieBolton: "https://your-cdn.cloudfront.net/projects/allie-bolton-header.jpg",
+    allieBolton: "https://images.troynamath.com/Projects/mlplatform-alliebolton.jpg",
     envysion: "https://images.troynamath.com/Projects/pcidss-envysion.jpg",
     target: "https://images.troynamath.com/Projects/investigations-target.jpg",
   }
