@@ -818,7 +818,7 @@ export default function Portfolio() {
                 <Linkedin className="w-6 h-6" aria-hidden="true" />
               </a>
               <a
-                href="mailto:info@troynamath.com"
+                href="mailto:troynamath@gmail.com"
                 className="social-link text-slate-600 hover:text-blue-600 hover:scale-110 transition-all duration-300"
                 aria-label="Send email"
               >
