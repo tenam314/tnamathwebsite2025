@@ -33,7 +33,7 @@ const IMAGES = {
   profile: "https://your-cdn.cloudfront.net/profile/troy-namath.jpg",
   projects: {
     flyover: "https://your-cdn.cloudfront.net/projects/flyover-header.jpg",
-    stickergiant: "https://your-cdn.cloudfront.net/projects/stickergiant-header.jpg",
+    stickergiant: "https://images.troynamath.com/Projects/jis-hil-SGdiecut.jpg",
     allieBolton: "https://your-cdn.cloudfront.net/projects/allie-bolton-header.jpg",
     envysion: "https://your-cdn.cloudfront.net/projects/envysion-header.jpg",
     target: "https://your-cdn.cloudfront.net/projects/target-header.jpg",
