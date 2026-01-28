@@ -35,7 +35,7 @@ const IMAGES = {
     flyover: "https://your-cdn.cloudfront.net/projects/flyover-header.jpg",
     stickergiant: "https://images.troynamath.com/Projects/jis-hil-SGdiecut.jpg",
     allieBolton: "https://your-cdn.cloudfront.net/projects/allie-bolton-header.jpg",
-    envysion: "https://your-cdn.cloudfront.net/projects/envysion-header.jpg",
+    envysion: "https://images.troynamath.com/Projects/pcidss-envysion.jpg",
     target: "https://images.troynamath.com/Projects/investigations-target.jpg",
   }
 };
